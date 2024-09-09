@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homeWorks</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<section class="main" id="main">
+    <div class="container">
+        <div class="logo">
+            <img src="images/homeWorks_logo.png" alt="logo">
+        </div>
+        <div class="main-info" id="mainInfo">
+            <div class="main-title" id="mainTitle">
+                <p>Get your free account</p>
+            </div>
+            <div class="main-text" id="mainText">
+                <p>Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</p>
+            </div>
+            <form class="form">
+                <label id="labelName">Full Name</label>
+                <input type="text" name="full-name" class="input" id="fullName">
+                <label>Your username</label>
+                <input type="text" name="username" class="input" id="userName">
+                <label  id="labelEmail">E-Mail</label>
+                <input type="email" name="email" class="input" id="email">
+                <label>Password</label>
+                <input type="password" name="password" class="input" id="password">
+                <label id="labelRepPassword">Repeat Password</label>
+                <input type="password" name="repeat-password" class="input" id="repeatPassword">
+            </form>
+            <div class="check">
+                <input type="checkbox" name="terms" value="checked" id="checked"><span id="agreed">Agree to our Terms of Service and Privacy Statement</span>
+            </div>
+            <button type="submit" class="btn" id="btn">Sign Up</button>
+            <div class="link" id="link">
+                <a href="#">Already have an account?</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-photo">
+        <img src="images/main-photo.png" alt="Main photo" id="mainPhoto">
+    </div>
+</section>
+
+<section class="popup-window">
+    <div class="popup" id="popup">
+        <div class="popup-text">
+            We have sent a link to your email. <br> Follow to complete your registration.
+        </div>
+        <div class="popup-img">
+            <img src="images/main-photo.png" alt="photo">
+        </div>
+        <button class="btn btn-popup" id="popupBtn">OK</button>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
