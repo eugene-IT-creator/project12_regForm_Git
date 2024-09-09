@@ -140,5 +140,5 @@ window.onload = function () {
             removeElements()
         }
     }
-
+// Homework 12. Added first comment
 }
