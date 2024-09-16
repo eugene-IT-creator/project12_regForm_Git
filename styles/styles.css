@@ -19,7 +19,7 @@
     min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background: linear-gradient(to right, white 50%, #F8F8FA 50%);
+    background: linear-gradient(to right, #323540 50%, #F8F8FA 50%);
     justify-content: center;
     position: relative;
 }
