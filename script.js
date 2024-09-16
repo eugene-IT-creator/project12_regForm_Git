@@ -141,4 +141,7 @@ window.onload = function () {
         }
     }
 // Homework 12. Added first comment
+
+//    Homework 13
+    console.log('Homework no.13');
 }
