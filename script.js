@@ -144,4 +144,5 @@ window.onload = function () {
 
 //    Homework 13
     console.log('Homework no.13');
+    console.log('Homework no.13 task no. 13');
 }
